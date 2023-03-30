@@ -3,6 +3,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     text-align: center;
@@ -18,7 +22,7 @@ h1 {
 
 
 .container {
-    transform: translateY(80%);
+    /*transform: translateY(80%);*/
     background-color: white;
     max-width: 260px;
     display: inline-block;
